@@ -1,0 +1,30 @@
+{
+  "id":{
+    "data_type":"int",
+    "mask_type":"none"
+  },
+  "first_name":{
+    "data_type":"string",
+    "mask_type":"reversible"
+  },
+  "last_name":{
+    "data_type":"string",
+    "mask_type":"reversible"
+  },
+  "email":{
+    "data_type":"email",
+    "mask_type":"irreversible"
+  },
+  "gender":{
+    "data_type":"string",
+    "mask_type":"none"
+  },
+  "ip_address":{
+    "data_type":"string",
+    "mask_type":"none"
+  },
+  "phone_number":{
+    "data_type":"phone_number",
+    "mask_type":"reversible"
+  }
+}
